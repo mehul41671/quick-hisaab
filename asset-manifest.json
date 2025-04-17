@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quick-hisaab/static/css/main.eb6fc3ab.css",
+    "main.js": "/quick-hisaab/static/js/main.2455f78e.js",
+    "index.html": "/quick-hisaab/index.html",
+    "main.eb6fc3ab.css.map": "/quick-hisaab/static/css/main.eb6fc3ab.css.map",
+    "main.2455f78e.js.map": "/quick-hisaab/static/js/main.2455f78e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb6fc3ab.css",
+    "static/js/main.2455f78e.js"
+  ]
+}
