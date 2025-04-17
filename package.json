@@ -1,10 +1,17 @@
 {
-  "name": "quick-hishab",
-  "version": "1.0.0",
+  "name": "quick-hisab",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://mehul41671.github.io/quick-hisaab",
   "description": "Modern Lottery Retail Management System",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "nodemon server.js",
     "client": "cd client && npm start",
     "dev:full": "concurrently \"npm run dev\" \"npm run client\""
@@ -16,6 +23,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "face-api.js": "^0.22.2",
+    "gh-pages": "^6.3.0",
     "jsonwebtoken": "^9.0.2",
     "moment": "^2.29.4",
     "mongoose": "^7.6.3",
