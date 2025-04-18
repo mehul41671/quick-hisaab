@@ -9,6 +9,25 @@ layout: default
   </header>
 
   <div class="app-content">
+    <!-- Login Form -->
+    <div class="login-container">
+      <div class="login-form">
+        <h2>Customer Login</h2>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit" class="primary-button">Login</button>
+          <p class="register-link">Don't have an account? <a href="#" id="registerLink">Register</a></p>
+        </form>
+      </div>
+    </div>
+
     <div class="feature-grid">
       <div class="feature-card">
         <h3>Real-time Management</h3>
@@ -61,3 +80,26 @@ Welcome to the Lottery Realtime documentation!
 ## Documentation
 
 For detailed documentation, please visit our [GitHub repository](https://github.com/mehul41671/quick-hisaab). 
+
+<script>
+document.getElementById('loginForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  const username = document.getElementById('username').value;
+  const password = document.getElementById('password').value;
+
+  // For demo purposes, we'll use hardcoded credentials
+  if (username === 'admin' && password === 'password') {
+    alert('Login successful! Redirecting to dashboard...');
+    // Redirect to your actual application
+    window.location.href = 'http://localhost:3000/dashboard';
+  } else {
+    alert('Invalid username or password');
+  }
+});
+
+document.getElementById('registerLink').addEventListener('click', function(e) {
+  e.preventDefault();
+  alert('Registration feature coming soon!');
+});
+</script> 
