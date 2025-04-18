@@ -19,4 +19,4 @@ Welcome to the Lottery Realtime documentation!
 
 ## Documentation
 
-For detailed documentation, please visit our [GitHub repository](https://github.com/yourusername/lottery-realtime). 
+For detailed documentation, please visit our [GitHub repository](https://github.com/mehul41671/quick-hisaab). 
