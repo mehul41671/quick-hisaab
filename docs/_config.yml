@@ -1,0 +1,5 @@
+theme: jekyll-theme-primer
+title: Lottery Realtime
+description: Real-time lottery management system
+baseurl: "/lottery-realtime"
+url: "https://yourusername.github.io" 
