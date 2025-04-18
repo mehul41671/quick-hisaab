@@ -1,8 +1,8 @@
 {
-  "name": "quick-hishab-client",
+  "name": "lottery-realtime",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mehul41671.github.io/quick-hisaab",
+  "homepage": "https://lotteryrealtime.online",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",

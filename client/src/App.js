@@ -88,7 +88,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router basename="/quick-hisaab">
+      <Router>
         <AppContent />
       </Router>
     </ThemeProvider>
