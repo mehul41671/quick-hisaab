@@ -32,19 +32,19 @@ layout: default
       <div class="feature-card">
         <h3>Real-time Management</h3>
         <p>Manage your lottery operations in real-time</p>
-        <button class="app-button">Try Demo</button>
+        <button class="app-button" onclick="showDemo()">Try Demo</button>
       </div>
 
       <div class="feature-card">
         <h3>Ticket Sales</h3>
         <p>Track and manage ticket sales efficiently</p>
-        <button class="app-button">View Sales</button>
+        <button class="app-button" onclick="showSales()">View Sales</button>
       </div>
 
       <div class="feature-card">
         <h3>Analytics</h3>
         <p>Get detailed insights and reports</p>
-        <button class="app-button">View Analytics</button>
+        <button class="app-button" onclick="showAnalytics()">View Analytics</button>
       </div>
     </div>
 
@@ -82,6 +82,7 @@ Welcome to the Lottery Realtime documentation!
 For detailed documentation, please visit our [GitHub repository](https://github.com/mehul41671/quick-hisaab). 
 
 <script>
+// Login Form Handler
 document.getElementById('loginForm').addEventListener('submit', function(e) {
   e.preventDefault();
   
@@ -98,6 +99,20 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
   }
 });
 
+// Feature Button Handlers
+function showDemo() {
+  alert('Demo feature coming soon!');
+}
+
+function showSales() {
+  alert('Sales dashboard coming soon!');
+}
+
+function showAnalytics() {
+  alert('Analytics dashboard coming soon!');
+}
+
+// Register Link Handler
 document.getElementById('registerLink').addEventListener('click', function(e) {
   e.preventDefault();
   alert('Registration feature coming soon!');
